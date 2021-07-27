@@ -1,0 +1,2 @@
+# Object.Recognition.EfficientNet
+Object recognition for 9 objects:  {airplane, car, bird, cat, deer, dog, horse, ship, truck}.  The building of a model that takes as input a batch of RGB images of objects with shape (32, 32, 3). There are two different probability distributions from which the images were sampled Ps(x, y) and Pt(x, y). The techniques used are transfer learning and domain adaptation using pseudo labeling.
